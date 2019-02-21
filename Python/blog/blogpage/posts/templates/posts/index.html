@@ -1,0 +1,9 @@
+<h1>Welcome</h1>
+<h2>Recent Posts</h2>
+
+{% for post in posts.all %}
+  <h3>{{ post.title }}</h3>
+  <p>{{ post.pubdateformat }}</p>
+  <img src="{{ post.image.url }}">
+  <p>{{ post.summary }}</p>
+{% endfor %}

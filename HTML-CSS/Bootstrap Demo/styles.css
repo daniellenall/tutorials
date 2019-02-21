@@ -1,0 +1,18 @@
+ul {
+  list-style-type: none;
+}
+
+li {
+  border: 1px solid #FFFFFF;
+
+}
+
+.priority {
+  background: orange;
+}
+
+/*Adjacent Selector - Selects elements next to eachother*/
+
+h4 + ul {
+  color: pink;
+}
